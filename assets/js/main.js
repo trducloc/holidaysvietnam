@@ -2,7 +2,6 @@ $(document).ready(function(){
 
     $('.owl-carousel').owlCarousel({
         loop:true,
-        margin:10,
         nav:true, //thanh dieu huong
         dots:true, //nut chuyen slide
         autoplay:true, //slide tu chay
@@ -12,10 +11,10 @@ $(document).ready(function(){
                 items:1
             },
             600:{
-                items:3
+                items:1
             },
-            1000:{
-                items:5
+            1000:{ //khoang man hinh/
+                items:1
             }
         }
     })
